@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        
+    {
+        "name": "TEST",
+        "request": "launch",
+        "cwd": "${workspaceRoot}/packages/vc-http-api-test-server",
+        "runtimeArgs": [
+            "run",
+            "test"
+        ],
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    }
+    ]
+}
